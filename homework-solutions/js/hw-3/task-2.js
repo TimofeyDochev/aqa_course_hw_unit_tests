@@ -4,3 +4,8 @@
 n + nn + nnn, где n не перемножаются, а конкатенируются
 
 */
+
+let input_num = 2;
+let input_str = String(input_num);
+let inputs_sum = input_num + +(input_num + input_str) + +(input_num + input_str + input_str);
+console.log(inputs_sum);
